@@ -1,0 +1,57 @@
+```
+DCMAKE_INSTALL_PREFIX=C:\mongo-c-driver"
+-- The C compiler identification is GNU 4.9.1
+-- The CXX compiler identification is GNU 4.9.1
+-- Check for working C compiler: C:/Qt/Tools/mingw491_32/bin/gcc.exe
+-- Check for working C compiler: C:/Qt/Tools/mingw491_32/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Qt/Tools/mingw491_32/bin/g++.exe
+-- Check for working CXX compiler: C:/Qt/Tools/mingw491_32/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Current version (from VERSION_CURRENT file): 1.6.3
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for _set_output_format
+-- Looking for _set_output_format - found
+-- Looking for reallocf
+-- Looking for reallocf - not found
+-- Performing Test BSON_HAVE_TIMESPEC
+-- Performing Test BSON_HAVE_TIMESPEC - Success
+--     struct timespec found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for strnlen
+-- Looking for strnlen - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for SYS_gettid
+-- Looking for SYS_gettid - not found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/IST/Downloads/_____teste_____/mongo-c-driver-1.6.3/src/libbson
+```
