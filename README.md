@@ -9,6 +9,7 @@ If you can, please don't use Windows. There are a lot Linux distributions and I'
 ## Table of Contents
 
 - [MinGW](#mingw)
+- [CMake](#cmake)
 - [mongo-c-driver](#mongo-c-driver)
   - [libbson](#libbson)
   - [MongoDB C driver](#mongodb-c-driver)
@@ -18,6 +19,9 @@ If you can, please don't use Windows. There are a lot Linux distributions and I'
 
 ## MinGW
 I used the MinGW that comes with Qt.
+
+## CMake
+I used the CMake 3.7.2.
 
 ## mongo-c-driver
 As the official documentation says, the mongocxx driver builds on top of the MongoDB C driver. So you need to install it first.
