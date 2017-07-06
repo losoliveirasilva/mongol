@@ -1,3 +1,4 @@
+```
 [  0%] Performing fix-includes step for 'EP_mnmlstc_core'
 perl: warning: Setting locale failed.
 perl: warning: Please check that your locale settings:
@@ -274,3 +275,4 @@ Scanning dependencies of target test_instance
 [ 98%] Building CXX object src/mongocxx/test/CMakeFiles/test_instance.dir/instance.cpp.obj
 [100%] Linking CXX executable test_instance.exe
 [100%] Built target test_instance
+```
