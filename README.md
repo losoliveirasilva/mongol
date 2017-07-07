@@ -1,10 +1,10 @@
 # Installing the mongocxx driver on Windows 7
 
 ## Motivation
-I tried to install Mongocxx using the [MongoDB official documentation](http://mongodb.github.io/mongo-cxx-driver/mongocxx-v3/installation/) but I found errors during installation and they require you to use Visual Studio. Since there are no good guides on how to install and use mongocxx drivers on Windows without using Visual Studio i decided to make my own using MinGW.
+I tried to install Mongocxx using the [MongoDB official documentation](http://mongodb.github.io/mongo-cxx-driver/mongocxx-v3/installation/) but I found errors during installation and they require you to use Visual Studio. Since there are no good guides on how to install and use mongocxx drivers on Windows without using Visual Studio I decided to make my own using MinGW.
 
 ## Author’s Note
-If you can, please don't use Windows. There are a lot Linux distributions out there and I'm certain that there is one which suits you. All the errors i found during the installation were because i was using Windows.  
+If you can, please don't use Windows. There are a lot Linux distributions out there and I'm certain that there is one which suits you. All the errors I found during the installation were because I was using Windows.  
 Only use Windows for development if you **must** test code on a Windows machine.
 
 ## Table of Contents
