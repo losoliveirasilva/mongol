@@ -15,6 +15,7 @@ Only use Windows for development if you **must** test code on a Windows machine.
   - [libbson](#libbson)
   - [MongoDB C driver](#mongodb-c-driver)
 - [mongo-cxx-driver](#mongo-cxx-driver)
+- [PATH](#path)
 - [Test your installation](#test-your-installation)
   - [Compile](#compile)
 
@@ -54,7 +55,7 @@ Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-drive
 ### MongoDB C driver
 Now let's do the same for the MongoDB C driver.
 
-Go to mongo-c-driver-1.6.3
+Go to `mongo-c-driver-1.6.3` folder.
 ```
 $ cd ../..
 $ cmake -G "MinGW Makefiles" "-DCMAKE_INSTALL_PREFIX=C:\mongo-c-driver" "-DBSON_ROOT_DIR=C:\mongo-c-driver" -DENABLE_SASL:BOOL=OFF
@@ -92,6 +93,9 @@ C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe install
 
 Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-cxx-driver) files like <a href="tree/tree3.md">these</a>.
 
+## PATH
+Put `C:\mongo-cxx-driver\bin;C:\mongo-c-driver\bin` on PATH.
+
 ## Test your installation
 You can use the code provided in the official documentation, or you can find the code below:
 
@@ -123,7 +127,6 @@ int main(int, char**) {
 ```
 
 ### Compile
-
 To compile I used this command line:
 
 ```
