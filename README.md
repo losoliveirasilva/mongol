@@ -50,7 +50,7 @@ $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe install
 **make** will output <a href="output/libbson_make.md">this</a>.
 **make install** will output <a href="output/libbson_make_install.md">this</a>.
 
-Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-driver) files like <a href="tree/libbson_tree.md">these</a>.
+Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-driver) files like <a href="output/libbson_tree.md">these</a>.
 
 ### MongoDB C driver
 Now let's do the same for the MongoDB C driver.
@@ -71,7 +71,7 @@ $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe install
 **make** will output <a href="output/mongoc_make.md">this</a>.
 **make install** will output <a href="output/mongoc_make_install.md">this</a>.
 
-Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-driver) files like <a href="tree/mongoc_tree.md">these</a>.
+Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-driver) files like <a href="output/mongoc_tree.md">these</a>.
 
 ## mongo-cxx-driver
 Look on the [mongocxx releases](https://github.com/mongodb/mongo-cxx-driver/releases) page for a link to the release tarball for the version you wish you install. For example, to download version 3.1.1 (I used this one):
@@ -91,7 +91,7 @@ C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe install
 **make** will output <a href="output/mongocxx_make.md">this</a>.
 **make install** will output <a href="output/mongocxx_make_install.md">this</a>.
 
-Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-cxx-driver) files like <a href="tree/mongocxx_tree.md">these</a>.
+Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-cxx-driver) files like <a href="output/mongocxx_tree.md">these</a>.
 
 ## PATH
 Put `C:\mongo-cxx-driver\bin;C:\mongo-c-driver\bin` on PATH.
