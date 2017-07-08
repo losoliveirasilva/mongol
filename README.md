@@ -1,13 +1,13 @@
 # Installing the mongocxx driver on Windows
 
-## Motivation
+# Motivation
 I tried to install Mongocxx using the [MongoDB official documentation](http://mongodb.github.io/mongo-cxx-driver/mongocxx-v3/installation/) but I found errors during installation and they require you to use Visual Studio. Since there are no good guides on how to install and use mongocxx drivers on Windows without using Visual Studio I decided to make my own using MinGW.
 
-## Author’s Note
+# Author’s Note
 If you can, please don't use Windows. There are a lot Linux distributions out there and I'm certain that there is one which suits you. All the errors I found during the installation were because I was using Windows.  
 Only use Windows for development if you **must** test code on a Windows machine.
 
-## Table of Contents
+# Table of Contents
 
 - [MinGW](#mingw)
 - [CMake](#cmake)
@@ -19,13 +19,13 @@ Only use Windows for development if you **must** test code on a Windows machine.
 - [Test your installation](#test-your-installation)
   - [Compile](#compile)
 
-## MinGW
+# MinGW
 I used the MinGW that comes with Qt.
 
-## CMake
+# CMake
 I used the CMake 3.7.2.
 
-## mongo-c-driver
+# mongo-c-driver
 As the official documentation says, the mongocxx driver builds on top of the MongoDB C driver. So you need to install it first.
 
 I downloaded the release version [mongo-c-driver 1.6.3](https://github.com/mongodb/mongo-c-driver/releases).
@@ -34,7 +34,7 @@ I downloaded the release version [mongo-c-driver 1.6.3](https://github.com/mongo
 $ tar xzf mongo-c-driver-1.6.3.tar.gz
 ```
 
-### libbson
+## libbson
 Let's start by installing libbson, a dependency of the C driver.
 
 ```
@@ -52,7 +52,7 @@ $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe install
 
 Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-driver) files like <a href="output/libbson_tree.md">these</a>.
 
-### MongoDB C driver
+## MongoDB C driver
 Now let's do the same for the MongoDB C driver.
 
 Go to `mongo-c-driver-1.6.3` folder.
@@ -73,7 +73,7 @@ $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe install
 
 Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-c-driver) files like <a href="output/mongoc_tree.md">these</a>.
 
-## mongo-cxx-driver
+# mongo-cxx-driver
 Look on the [mongocxx releases](https://github.com/mongodb/mongo-cxx-driver/releases) page for a link to the release tarball for the version you wish you install. For example, to download version 3.1.1 (I used this one):
 
 ```
@@ -93,10 +93,10 @@ C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe install
 
 Now you should see at your `-DCMAKE_INSTALL_PREFIX` (in my case C:\mongo-cxx-driver) files like <a href="output/mongocxx_tree.md">these</a>.
 
-## PATH
+# PATH
 Put `C:\mongo-cxx-driver\bin;C:\mongo-c-driver\bin` on PATH.
 
-## Test your installation
+# Test your installation
 You can use the code provided in the official documentation, or you can find the code below:
 
 ```
@@ -126,7 +126,7 @@ int main(int, char**) {
 }
 ```
 
-### Compile
+## Compile
 To compile I used this command line:
 
 ```
