@@ -1,4 +1,6 @@
 # Installing the mongocxx driver on Windows
+> Also in&nbsp;
+> <a href="docs/pt_BR/README.md">🇧🇷</a>
 
 # Motivation
 I tried to install Mongocxx using the [MongoDB official documentation](http://mongodb.github.io/mongo-cxx-driver/mongocxx-v3/installation/) but I found errors during installation and they require you to use Visual Studio. Since there are no good guides on how to install and use mongocxx drivers on Windows without using Visual Studio I decided to make my own using MinGW.
