@@ -43,16 +43,16 @@ Vamos começar instalando o libbson, uma dependência do driver para C.
 $ cd mongo-c-driver-1.6.3/src/libbson
 $ cmake -G "MinGW Makefiles" "-DCMAKE_INSTALL_PREFIX=C:\mongo-c-driver"
 ```
-**cmake** irá gerar <a href="output/libbson_cmake.md">isso</a>.
+**cmake** irá gerar <a href="../../output/libbson_cmake.md">isso</a>.
 
 ```
 $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe
 $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe install
 ```
-**make** irá gerar <a href="output/libbson_make.md">isso</a>.
-**make install** irá gerar <a href="output/libbson_make_install.md">isso</a>.
+**make** irá gerar <a href="../../output/libbson_make.md">isso</a>.
+**make install** irá gerar <a href="../../output/libbson_make_install.md">isso</a>.
 
-Agora você deve ver em seu `-DCMAKE_INSTALL_PREFIX` (no meu caso C:\mongo-c-driver) arquivos como <a href="output/libbson_tree.md">esses</a>.
+Agora você deve ver em seu `-DCMAKE_INSTALL_PREFIX` (no meu caso C:\mongo-c-driver) arquivos como <a href="../../output/libbson_tree.md">esses</a>.
 
 ## MongoDB C driver
 Vamos fazer o mesmo para o driver MongoDB C.
@@ -62,7 +62,7 @@ Vá para a pasta `mongo-c-driver-1.6.3`.
 $ cd ../..
 $ cmake -G "MinGW Makefiles" "-DCMAKE_INSTALL_PREFIX=C:\mongo-c-driver" "-DBSON_ROOT_DIR=C:\mongo-c-driver" -DENABLE_SASL:BOOL=OFF
 ```
-**cmake** irá gerar <a href="output/mongoc_cmake.md">isso</a>.
+**cmake** irá gerar <a href="../../output/mongoc_cmake.md">isso</a>.
 
 Note que eu tentei instalar sem utilizar o `-DENABLE_SASL:BOOL=OFF`, mas encontrei muitos problemas.
 
@@ -70,10 +70,10 @@ Note que eu tentei instalar sem utilizar o `-DENABLE_SASL:BOOL=OFF`, mas encontr
 $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe
 $ C:\Qt\Tools\mingw491_32\bin\mingw32-make.exe install
 ```
-**make** irá gerar <a href="output/mongoc_make.md">isso</a>.
-**make install** irá gerar <a href="output/mongoc_make_install.md">isso</a>.
+**make** irá gerar <a href="../../output/mongoc_make.md">isso</a>.
+**make install** irá gerar <a href="../../output/mongoc_make_install.md">isso</a>.
 
-Agora você deve ver em seu `-DCMAKE_INSTALL_PREFIX` (no meu caso C:\mongo-c-driver) arquivos como <a href="output/mongoc_tree.md">esses</a>.
+Agora você deve ver em seu `-DCMAKE_INSTALL_PREFIX` (no meu caso C:\mongo-c-driver) arquivos como <a href="../../output/mongoc_tree.md">esses</a>.
 
 # mongo-cxx-driver
 Acesse a página de [releases do mongocxx](https://github.com/mongodb/mongo-cxx-driver/releases) para um link da versão que você irá instalar. Por exemplo, para baixar a versão 3.1.1 (eu usei essa):
@@ -84,16 +84,16 @@ $ tar -xzf r3.1.1.tar.gz
 $ cd mongo-cxx-driver-r3.1.1/build
 $ cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=C:\mongo-cxx-driver -DLIBBSON_DIR=C:\mongo-c-driver -DLIBMONGOC_DIR=C:\mongo-c-driver ..
 ```
-**cmake** irá gerar <a href="output/mongocxx_cmake.md">isso</a>.
+**cmake** irá gerar <a href="../../output/mongocxx_cmake.md">isso</a>.
 
 ```
 C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe
 C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe install
 ```
-**make** irá gerar <a href="output/mongocxx_make.md">isso</a>.
-**make install** irá gerar <a href="output/mongocxx_make_install.md">isso</a>.
+**make** irá gerar <a href="../../output/mongocxx_make.md">isso</a>.
+**make install** irá gerar <a href="../../output/mongocxx_make_install.md">isso</a>.
 
-Agora você deve ver em seu `-DCMAKE_INSTALL_PREFIX` (no meu caso C:\mongo-cxx-driver) arquivos como <a href="output/mongocxx_tree.md">esses</a>.
+Agora você deve ver em seu `-DCMAKE_INSTALL_PREFIX` (no meu caso C:\mongo-cxx-driver) arquivos como <a href="../../output/mongocxx_tree.md">esses</a>.
 
 # PATH
 Coloque `C:\mongo-cxx-driver\bin;C:\mongo-c-driver\bin` no PATH.
