@@ -11,8 +11,9 @@ Só use Windows para desenvolvimento se você **precisar** testar o código em u
 
 # Sumário
 
-- [MinGW](#mingw)
-- [CMake](#cmake)
+- [Softwares](#softwares)
+  - [MinGW](#mingw)
+  - [CMake](#cmake)
 - [mongo-c-driver](#mongo-c-driver)
   - [libbson](#libbson)
   - [MongoDB C driver](#mongodb-c-driver)
@@ -21,10 +22,11 @@ Só use Windows para desenvolvimento se você **precisar** testar o código em u
 - [Teste sua instalação](#teste-sua-instalação)
   - [Compile](#compile)
 
-# MinGW
+# Softwares
+## MinGW
 Eu usei o MinGW que vem com o Qt.
 
-# CMake
+## CMake
 Usei o Cmake 3.7.2.
 
 # mongo-c-driver
