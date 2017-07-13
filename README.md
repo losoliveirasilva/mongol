@@ -11,8 +11,9 @@ Only use Windows for development if you **must** test code on a Windows machine.
 
 # Table of Contents
 
-- [MinGW](#mingw)
-- [CMake](#cmake)
+- [Softwares](#softwares)
+  - [MinGW](#mingw)
+  - [CMake](#cmake)
 - [mongo-c-driver](#mongo-c-driver)
   - [libbson](#libbson)
   - [MongoDB C driver](#mongodb-c-driver)
@@ -21,10 +22,11 @@ Only use Windows for development if you **must** test code on a Windows machine.
 - [Test your installation](#test-your-installation)
   - [Compile](#compile)
 
-# MinGW
+# Softwares
+## MinGW
 I used the MinGW that comes with Qt.
 
-# CMake
+## CMake
 I used the CMake 3.7.2.
 
 # mongo-c-driver
